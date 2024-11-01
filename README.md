@@ -1,4 +1,4 @@
-# Front-End-Designer-Projects
+# Front-End-Designer-Project-1
 This project is a responsive website layout created with HTML5 and CSS3, styled using Bootstrap for enhanced structure and design flexibility. The website layout includes:
 
 - **Header:**  A responsive navigation bar, built with Bootstrap, that collapses on smaller screens and includes a brand logo and menu links.
