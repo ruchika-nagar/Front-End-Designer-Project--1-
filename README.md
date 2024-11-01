@@ -1,11 +1,11 @@
 # Front-End-Designer-Projects
 This project is a responsive website layout created with HTML5 and CSS3, styled using Bootstrap for enhanced structure and design flexibility. The website layout includes:
 
-**Header:**  A responsive navigation bar, built with Bootstrap, that collapses on smaller screens and includes a brand logo and menu links.
-**Hero Section:** A visually engaging hero section featuring a background image and CTA buttons.
-**Content Boxes:** A structured layout using Bootstrap grid to organize content and image-based icons, describing various features or services.
-**Call-to-Action (CTA):** Includes a detailed information box with highlighted sections and a signup area to capture user information.
-**Footer:** A footer with multiple columns for quick links, a brief description, and social media navigation.
+- **Header:**  A responsive navigation bar, built with Bootstrap, that collapses on smaller screens and includes a brand logo and menu links.
+- **Hero Section:** A visually engaging hero section featuring a background image and CTA buttons.
+- **Content Boxes:** A structured layout using Bootstrap grid to organize content and image-based icons, describing various features or services.
+- **Call-to-Action (CTA):** Includes a detailed information box with highlighted sections and a signup area to capture user information.
+- **Footer:** A footer with multiple columns for quick links, a brief description, and social media navigation.
 
 ## Technical Highlights
 **Responsive Design:** CSS variables and media queries ensure seamless adaptability across different screen sizes.
