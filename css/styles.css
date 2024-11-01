@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,800;0,900;1,500;1,800;1,900&display=swap');
+
+:root {
+    --body-font-family: 'Poppins';
+    --white-color: white;
+    --black-color: black;
+    --light-grey-color: rgba(186, 172, 172, 0.278);
+    --dark-grey-color:rgba(53, 47, 47, 0.91);
+    --section-heading-font: 50px;
+    --large-text: 15px;
+    --small-text: 12px;
+    --section-tb-padding: 20px;
+    --section-lr-padding: 25px;
+    --btn-padding: 10px;
+}
+
+/* start global css properties */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+.nav-item a{
+    padding: 5px;
+    color: var(--black-color);
+    font-weight: 100;
+}
+
+body {
+    font-family: var(--body-font-family);
+    font-size: var(--body-font);
+    font-weight: 400;
+    color: var(--black-color);
+}
+
+section {
+    padding: var(--section-tb-padding) var(--section-lr-padding);
+}
+
+h1 span {
+    font-size: var(--section-heading-font);
+    margin-bottom: 5px;
+    font-weight: 900;
+    display: block;
+}
+
+h2 {
+    font-size: var(--section-heading-font);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+
+/* Start herosection CSS property*/
+
+.herosection {
+    background-image: url(/images/mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.herosection-header p {
+    font-size: var(--small-text);
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.herosection-btn .primary-btn{
+    margin-right: 10px;
+}
+
+.herosection-footer {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    text-align: center;
+    margin:30px;
+}
+/* End herosection CSS property  */
+
+/* Start contentbox CSS property   */
+.contentbox-heading p {
+    font-size: var(--large-text);
+    font-weight: 500;
+}
+.contentbox-item{
+    margin-top: 50px;
+}
+.contentbox-item .contentbox-item-heading {
+    font-weight: 900;
+    font-size: var(--large-text);
+    padding-top: 10px;
+}
+
+.contentbox-item .contentbox-item-data {
+    font-size: var(--small-text);
+    font-weight: 500;
+}
+
+.contentbox-footer{
+    padding-top: 30px;
+}
+/* End contentbox  CSS property */
+
+/* Start infobox-cta CSS property  */
+.infobox-cta {
+    background-color: var(--light-grey-color)
+}
+
+ .infobox-cta-heading p{
+    font-size: var(--small-text);
+    font-weight: 500;
+}
+
+.infobox-cta-item .infobox-cta-item-heading{
+    font-weight: 600;
+    font-size: var(--large-text);
+    margin-top: 50px;
+ 
+}
+.infobox-cta-item .infobox-cta-item-data{
+    font-size: var(--small-text);
+    font-weight: 500;
+}
+
+.cta{
+    background-color: var(--white-color);
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+.cta .cta-heading{
+    font-weight: 600;
+    font-size: var(--large-text);
+    margin-top: 10px;
+}
+.cta .cta-data{
+    font-size: var(--small-text);
+    font-weight: 500;
+}
+.cta .cta-input{
+    text-align: center;
+    margin-top: 5px;
+}
+.cta .cta-form-check{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* End infobox-cta CSS property */
+
+/* Start footer CSS property  */
+footer{
+    padding: var(--section-tb-padding) var(--section-lr-padding);
+    color: var(--black-color);
+    font-size: var(--small-text);
+}
+
+.footer-logo p{
+    font-weight: 600;
+}
+.footer-list-heading p{
+    font-weight: 500;
+}
+.footer-menu{
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 30px;
+}
+.footer-menu .footer-menu-item-header{
+    font-weight: 600;
+}
+.footer-menu .footer-menu-item a{
+    color: var(--dark-grey-color);
+    text-decoration: none;
+}
+.footer-bottom{
+    padding-top: 10px;
+    font-weight: 500;
+}
+/* End footer CSS property  */
+
+
+/* start button CSS property */
+.nav-item .nav-link.active {
+    font-weight: 900;
+}
+
+.primary-btn {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: var(--btn-padding);
+    text-decoration: none;
+    font-size: var(--small-text);
+}
+
+.secondary-btn {
+    color: var(--black-color);
+    font-size: var(--small-text);
+    font-weight: 800;
+}
+/* end button CSS property */
